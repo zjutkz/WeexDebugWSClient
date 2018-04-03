@@ -3,8 +3,6 @@ apply plugin: 'com.android.library'
 android {
     compileSdkVersion 26
 
-
-
     defaultConfig {
         minSdkVersion 14
         targetSdkVersion 26
@@ -36,4 +34,5 @@ dependencies {
     compileOnly 'com.taobao.android:weex_inspector:0.13.4'
     compileOnly 'com.taobao.android.weex_inspection:protocol:1.1.4.1'
     compileOnly 'com.squareup.okhttp3:okhttp:3.9.1@jar'
+    compileOnly 'com.squareup.okio:okio:1.13.0@jar'
 }
