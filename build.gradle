@@ -1,0 +1,27 @@
+buildscript {
+    repositories {
+        mavenLocal()
+        maven {
+            url "https://maven.google.com"
+        }
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.0'
+    }
+
+    configurations.all {
+        it.resolutionStrategy.cacheDynamicVersionsFor(5, 'minutes')
+        it.resolutionStrategy.cacheChangingModulesFor(0, 'seconds')
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        mavenLocal()
+        maven {
+            url "https://maven.google.com"
+        }
+    }
+}
