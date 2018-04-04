@@ -16,7 +16,7 @@ allprojects {
 
 ```groovy
 dependencies {
-	compile 'com.github.zjutkz:WeexDebugWSClient:1.0.0'
+	compile 'com.github.zjutkz:WeexDebugWSClient:1.0.5'
 }
 ```
 
